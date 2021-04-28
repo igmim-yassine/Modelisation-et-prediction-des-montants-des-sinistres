@@ -4,15 +4,25 @@ Après avoir examiner le sujet en question statistiquement par les modéles de s
 les modèles utilisés
 
 Regression linaire
+
 L'arbre de classification et de regression CART
+
 Random forest
+
 Gradient boost tree
+
 XGBoost regressor
+
 LightGBM
+
 Catboost
+
 KNN regressor
+
 SVRegression
+
 ADABoost via LightGBM
+
 
 
 je vous esquisse de même un plan pour cette présentation de résultas, que dans chaque modele j'ajuste ma data suivant les parametres par défauts et j'examine le modele au testset et apres k'oprimise les parametres via l'hyperparametres tuning par la méthode de grid search et puis je cherche à comparer les résultas avec et sans tuning the parametres et en suite je visualise l'importance de chaque variable dans la prédiction de la variable CoutMoyen via la méthode de SHAP directement je plot les plots de shap pour comprendre mieux l'architecture de l'apprentissage de chaque modéle.
